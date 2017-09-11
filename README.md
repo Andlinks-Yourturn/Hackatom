@@ -7,7 +7,8 @@ The management of charity fund is a crucial problem in our society. We face many
 The donors sometimes question the management of money, meanwhile people have difficulty finding help. 
 
 Yourturn is a platform based on tendermint. It functions as the bridge between the unfortunate and the benevolent. 
-[图片]
+![alt text](http://url/to/img.png)
+
 # What Yourturn  Can Do
 *Set up campaigns for charity funcd raising<br/>
 *Apply for fund<br/>
