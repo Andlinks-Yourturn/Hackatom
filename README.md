@@ -31,8 +31,8 @@ There is a Web & Java Web server. They call the function through wrapped API.
 
 We provide [Basecoin API](https://github.com/Andlinks-Yourturn/BasecoinService)  for token management related actions. People an do a deposit, a transfer or audit fund transfer process. It's based on tendermint/basecoin, but we add some improvements. It become crystal clear who is benefited and anyone can check if the candidate is eligible by comparing the related files. 
 
-In [ABCi](https://github.com/Andlinks-Yourturn/abci), it functions as application management. The donor's projects has a basecoin address and a criteria doc, and each student has a basecoin address and profile doc. The relationship
- 
+In our [ABCi](https://github.com/Andlinks-Yourturn/abci), which is based on tendermint/abci it functions as application management. The donor's projects has a basecoin address and a criteria doc, and each student has a basecoin address and profile doc. The relationship
+ ,
     basecoin address - IPFS address 
 are recorded in a Merkle-tree.  All the application request is processed by comparing the files. WHen the criteria are met, the designated amount of tokens are transferred automatically. 
 
