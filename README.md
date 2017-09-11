@@ -40,7 +40,15 @@ There is a Web & Java Web server. They call the function through wrapped API.
 
 2.1 Deploy Web Application
 
-The instruction can be found at https://github.com/Andlinks-Yourturn/Java/tree/master
+The instruction for deploying java projects can be found at 
+
+    https://github.com/Andlinks-Yourturn/Java/tree/master
+
+and 
+
+    https://github.com/Andlinks-Yourturn/Web
+
+
 
 
     
@@ -52,3 +60,7 @@ you can find our demo video in the following link:
  <a href="http://www.youtube.com/watch?feature=player_embedded&v=oqAMhmyZgYQ
  " target="_blank"><img src="http://img.youtube.com/vi/oqAMhmyZgYQ/0.jpg" 
  alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+
+
