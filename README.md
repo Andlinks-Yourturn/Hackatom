@@ -38,7 +38,14 @@ There is a Web & Java Web server. They call the function through wrapped API.
 
 2. Deploy
 
-2.1 Deploy Web Application
+2.1 Install IPFS
+
+install IPFS in your machine
+
+https://ipfs.io/docs/install/
+
+
+2.2 Deploy Web Application
 
 The instruction for deploying java projects can be found at 
 
@@ -47,6 +54,16 @@ The instruction for deploying java projects can be found at
 and 
 
     https://github.com/Andlinks-Yourturn/Web
+
+
+2.3 Deploy Abci & Cosmos Service
+
+Make sure you have Tendermint installed & initialized in your machine.
+
+Start Tendermint `tendermint node`
+
+Install ABCi
+
 
 
 
