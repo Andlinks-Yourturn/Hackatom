@@ -29,6 +29,17 @@ Yourturn is compose of three parts.
 
 There is a Web & Java Web server. They call the function through wrapped API.
 
+We provide [Basecoin API](https://github.com/Andlinks-Yourturn/BasecoinService)  for token management related actions. People an do a deposit, a transfer or audit fund transfer process. It's based on tendermint/basecoin, but we add some improvements. It become crystal clear who is benefited and anyone can check if the candidate is eligible by comparing the related files. 
+
+In [ABCi](https://github.com/Andlinks-Yourturn/abci), it functions as application management. The donor's projects has a basecoin address and a criteria doc, and each student has a basecoin address and profile doc. The relationship
+ 
+    basecoin address - IPFS address 
+are recorded in a Merkle-tree.  All the application request is processed by comparing the files. WHen the criteria are met, the designated amount of tokens are transferred automatically. 
+
+All the txs are open for auditing. In this way, we can make sure all the tokens are paid to the right people. 
+
+
+
 # Deployment
 1. Environment
 
@@ -64,19 +75,15 @@ Start Tendermint `tendermint node`
 
 Install ABCi
 
-run `go get https://github.com/Andlinks-Yourturn/abci/cmd/...`
+    run `go get https://github.com/Andlinks-Yourturn/abci/cmd/...`
 
 Let’s start a ABCi application. `dummy`
 
 Install Basecoin 
 
-run `go get https://github.com/Andlinks-Yourturn/BasecoinService/cmd/...`
+    run `go get https://github.com/Andlinks-Yourturn/BasecoinService/cmd/...`
 
 Let’s start a Basecoin application. `basecoin start`
-
-
-
-
     
     
 # Demo
