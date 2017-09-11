@@ -1,4 +1,4 @@
-# Yourturn: A charity fun management platform based on Cosmos
+# Yourturn: Token management platform for charity purpose based on Comsmos-sdk & Tendermint
 
 This project is designed for Cosmos Hackatom #2.
 # Overview
@@ -7,7 +7,7 @@ The management of charity fund is a crucial problem in our society. We face many
 The donors sometimes question the management of money, meanwhile people have difficulty finding help. 
 
 Yourturn is a platform based on tendermint. It functions as the bridge between the unfortunate and the benevolent. 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Andlinks-Yourturn/Hackatom/blob/master/architecture.jpeg)
 
 # What Yourturn  Can Do
 *Set up campaigns for charity funcd raising<br/>
