@@ -25,6 +25,9 @@ Student apply certain projects at Yourturn. The underlying ABCi will make the de
 The architecture is shown in following picture.
 ![alt text](https://github.com/Andlinks-Yourturn/Hackatom/blob/master/architecture.jpeg)
 
+Yourturn is compose of three parts.
+
+There is a Web & Java Web server. They call the function through wrapped API.
 
 # Deployment
 1. Environment
@@ -35,11 +38,17 @@ The architecture is shown in following picture.
 
 2. Deploy
 
+2.1 Deploy Web Application
+
+The instruction can be found at https://github.com/Andlinks-Yourturn/Java/tree/master
+
+
     
     
 # Demo
 
 you can find our demo video in the following link:
+
  <a href="http://www.youtube.com/watch?feature=player_embedded&v=oqAMhmyZgYQ
  " target="_blank"><img src="http://img.youtube.com/vi/oqAMhmyZgYQ/0.jpg" 
  alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
