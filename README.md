@@ -29,7 +29,7 @@ Yourturn is compose of three parts.
 
 There is a Web & Java Web server. They call the function through wrapped API.
 
-We provide [Basecoin API](https://github.com/Andlinks-Yourturn/BasecoinService)  for token management related actions. People an do a deposit, a transfer or audit fund transfer process. It's based on tendermint/basecoin, but we add some improvements. It become crystal clear who is benefited and anyone can check if the candidate is eligible by comparing the related files. 
+We provide an improved [Basecoin API](https://github.com/Andlinks-Yourturn/BasecoinService)  for token management related actions. People an do a deposit, a transfer or audit fund transfer process. It's based on tendermint/basecoin, but we add some improvements. It become crystal clear who is benefited and anyone can check if the candidate is eligible by comparing the related files. 
 
 In our [ABCi](https://github.com/Andlinks-Yourturn/abci), which is based on tendermint/abci it functions as application management. The donor's projects has a basecoin address and a criteria doc, and each student has a basecoin address and profile doc. The relationship
  ,
@@ -58,13 +58,9 @@ https://ipfs.io/docs/install/
 
 2.2 Deploy Web Application
 
-The instruction for deploying java projects can be found at 
+The instruction for deploying java projects can be found at [Yourturn Java Server](https://github.com/Andlinks-Yourturn/Java/tree/master)
 
-    https://github.com/Andlinks-Yourturn/Java/tree/master
-
-and 
-
-    https://github.com/Andlinks-Yourturn/Web
+and [Yourturn Java Web](https://github.com/Andlinks-Yourturn/Web)
 
 
 2.3 Deploy Abci & Cosmos Service
